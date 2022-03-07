@@ -1,7 +1,7 @@
 "use strict";
 
 var express = require("express");
-var repliklerRepository = require("./repliklerRepository");
+var repliklerRepository = require("./replikTabani");
 var app = express();
 var port = process.env.PORT || 3001;
 
