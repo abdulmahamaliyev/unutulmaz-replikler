@@ -1,8 +1,6 @@
 # Unutulmaz Film/Dizi replikler API
 
-A simple API to retrieve some replikler of Unutulmaz Film/Dizi, bitch!
-
-:globe_with_meridians: Website and demo: https://breakingbadreplikler.xyz/
+Unutulmaz Film/Dizi replikleri için bir APİ, bitch!
 
 ## Production host
 
@@ -12,7 +10,7 @@ A simple API to retrieve some replikler of Unutulmaz Film/Dizi, bitch!
 
 ### `GET /v1/replikler`
 
-Get a random replik in this format:
+Rasgele replik için format:
 
 > [https://unutulmaz-replikler.herokuapp.com/v1/replikler](https://unutulmaz-replikler.herokuapp.com/v1/replikler)
 
@@ -25,7 +23,7 @@ Get a random replik in this format:
 
 ### `GET /v1/replikler/{number}`
 
-Returns an array with `{number}` replikler e.g. `GET /v1/replikler/5`.
+Çoklu replik almak için format `{number}` mesela. `GET /v1/replikler/5`.
 
 > [https://unutulmaz-replikler.herokuapp.com/v1/replikler/5](https://unutulmaz-replikler.herokuapp.com/v1/replikler/5)
 
@@ -52,14 +50,11 @@ Returns an array with `{number}` replikler e.g. `GET /v1/replikler/5`.
       }
     ]
 
-## Docker
-
-You can find the Dockerfile [here](https://github.com/helioxy/dockerfiles/tree/master/unutulmaz-replikler) and on [Docker Hub](https://hub.docker.com/r/helioxy/unutulmaz-replikler/).
 
 ## Contributing
 
-If you want to add some replikler, just add them in `replikler.js` file and do a pull request !
+Replik katkısında bulunmak için `replikler.js` faylına ekleyip pull request göndere bilirsiniz!
 
 ## Credits
 
-Inspired by [Breaking Bad quotes](https://github.com/shevabam/breaking-bad-quotes.git).
+Şu heriften bire bir çaldım. [Breaking Bad quotes](https://github.com/shevabam/breaking-bad-quotes.git).
