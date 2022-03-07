@@ -1,23 +1,23 @@
 {
-  "name": "breaking-bad-quotes",
+  "name": "unutulmaz-replikler",
   "version": "1.0.0",
-  "description": "An API for retrieving Breaking Bad quotes",
+  "description": "An API for retrieving Unutulmaz Film/Dizi replikleri",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shevabam/breaking-bad-quotes"
+    "url": "https://github.com/helioxy/unutulmaz-replikler"
   },
   "keywords": [
     "breaking",
     "bad",
     "heisenberg",
-    "quotes",
+    "replikler",
     "api"
   ],
-  "author": "ShevAbam",
+  "author": "helioxy",
   "bugs": {
-    "url": "https://github.com/shevabam/breaking-bad-quotes/issues"
+    "url": "https://github.com/helioxy/unutulmaz-replikler/issues"
   },
-  "homepage": "https://github.com/shevabam/breaking-bad-quotes",
+  "homepage": "https://github.com/helioxy/unutulmaz-replikler",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

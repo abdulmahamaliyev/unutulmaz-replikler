@@ -1,21 +1,24 @@
-'use strict';
+"use strict";
 
-var quotes = require('./quotes');
+var replikler = require("./replikler");
 
 module.exports = {
-    getRandom: function getRandom(numberOfQuotes) {
-        var limit = numberOfQuotes > quotes.length ? quotes.length : numberOfQuotes;
+  getRandom: function getRandom(numberOfreplikler) {
+    var limit =
+      numberOfreplikler > replikler.length
+        ? replikler.length
+        : numberOfreplikler;
 
-        var out = new Array(limit);
-        var quote;
+    var out = new Array(limit);
+    var replik;
 
-        for (var i = 0; i < limit; i++) {
-            do {
-                quote = quotes[Math.floor(Math.random() * quotes.length)];
-            } while (out.indexOf(quote) > -1);
-            out[i] = quote;
-        }
-        
-        return out;
+    for (var i = 0; i < limit; i++) {
+      do {
+        replik = replikler[Math.floor(Math.random() * replikler.length)];
+      } while (out.indexOf(replik) > -1);
+      out[i] = replik;
     }
+
+    return out;
+  },
 };
